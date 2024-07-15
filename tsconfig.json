@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6", 
+    "module": "ESNext",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["./src/js/script.ts"],
+  "exclude": ["node_modules"]
+}
